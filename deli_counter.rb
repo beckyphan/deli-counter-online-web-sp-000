@@ -23,4 +23,6 @@ def now_serving(line)
     serving = line[0]
     puts "Currently serving #{serving}."
     line.unshift()
+  else 
+    puts "There are no people"
 end
