@@ -7,7 +7,7 @@ def line(katz_deli)
     katz_deli.each do |person|
       puts " #{number}. #{person}"
       number += 1
-      end
+    end
   else 
     puts "The line is currently empty."
   end
