@@ -8,6 +8,5 @@ def line(katz_deli)
     katz_deli.each_with_index do |person, index|
       puts "#{index + 1}. #{person} "
     end
-    print "."
   end
 end
