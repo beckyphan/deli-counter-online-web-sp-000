@@ -13,3 +13,14 @@ def line(katz_deli)
   end
 end
 
+def take_a_number(line, name)
+  line << name
+  number = line.length
+  puts "Welcome, #{name}. You are number #{number} in line."
+end
+
+def now_serving(line)
+  serving = line[0]
+  puts "Currently serving #{serving}."
+  line.unshift()
+end
