@@ -6,6 +6,16 @@ def line(katz_deli)
     # katz_deli.each_with_index do |name, index|
     #   print " #{index + 1}. #{name}"
     # end
+    
+    counter = 1
+    string = "The line is currently:"
+    katz_deli.each do |name|
+      string = string + counter + ". " + "#{name}"
+      counter += 1
+    end
+    
+    puts string
+  
   else 
     puts "The line is currently empty."
   end
