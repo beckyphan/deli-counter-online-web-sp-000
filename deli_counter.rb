@@ -4,7 +4,12 @@ def line(katz_deli)
   if katz_deli.length > 0 
     line = []
     katz_deli.each_with_index do |name, index|
-      
+      line << " #{index + 1}. #{name}"
+    end
+    print "The line is currently:"
+    line.each do |n_person|
+      print "#{n_person}"
+    end
   else 
     puts "The line is currently empty."
   end
