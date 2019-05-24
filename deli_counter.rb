@@ -6,9 +6,9 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, index|
       line << " #{index + 1}. #{name}"
     end
-    print "The line is currently:"
+    puts "The line is currently:"
     line.each do |n_person|
-      print "#{n_person}"
+      puts "#{n_person}"
     end
   else 
     puts "The line is currently empty."
