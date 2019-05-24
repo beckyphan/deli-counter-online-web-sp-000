@@ -19,7 +19,8 @@ def take_a_number(line, name)
 end
 
 def now_serving(line)
-  serving = line[0]
-  puts "Currently serving #{serving}."
-  line.unshift()
+  if line.length > 0
+    serving = line[0]
+    puts "Currently serving #{serving}."
+    line.unshift()
 end
