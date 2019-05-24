@@ -24,5 +24,6 @@ def now_serving(line)
     puts "Currently serving #{serving}."
     line.unshift()
   else 
-    puts "There are no people"
+    puts "There is nobody waiting to be served!"
+  end
 end
